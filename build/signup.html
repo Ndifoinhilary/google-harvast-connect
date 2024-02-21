@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script/index.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="icon"
+      href="./img/vegetarian_mark_48px.png"
+      type="image/x-icon"
+    />
+    <title>Register</title>
+  </head>
+  <body
+    class="flex items-center justify-center min-h-screen  font-serif py-8 dark:text-white dark:bg-black bg-slate-100"
+  >
+    <main
+      class="main-body sm:w-120 lg:w-124 border-2 border-gray-400 dark:border-gray-600 py-5 rounded-lg shadow-xl"
+    >
+      <section>
+        <article class="mb-6 px-12">
+          <h1
+            class="text-2xl text-center font-bold md:text-4xl lg:text-3xl text-green-400 pl-5 mb-2"
+          >
+            Sign Up
+          </h1>
+          <figure class="flex justify-center">
+            <img
+              class="w-6 h-6"
+              src="./img/vegetarian_mark_48px.png"
+              alt="vegetarian_mark"
+            />
+            <p>Do you have an account? <a href="./signin.html">sign in</a></p>
+          </figure>
+        </article>
+        <form
+          action="/submit"
+          method="post"
+          class="border-none w-full m-auto border-2 border-gray-400 px-10"
+        >
+          <!--Name container-->
+          <div class="my-5">
+            <label for="name" class="text-gray-700 dark:text-gray-200"
+              >Enter you full names</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent pl-5 h-14 mt-1 w-full px-2 rounded"
+              required
+              type="text"
+              id="name"
+              name="name"
+            />
+          </div>
+          <!--Usernames container-->
+          <div class="my-5">
+            <label for="user-name" class="text-gray-700 dark:text-gray-200"
+              >Username</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 focus:outline-green-400 pl-5 h-14 mt-1 w-full dark:bg-gray-700 dark:border-transparent px-2 rounded"
+              required
+              type="text"
+              id="user-name"
+              pattern="^[a-z]+\d{2,}"
+              name="user-name"
+            />
+          </div>
+
+          <!--region/city container-->
+          <div class="">
+            <label for="regions" class="text-gray-700 dark:text-gray-200">
+              Regions
+            </label>
+            <select
+              name=""
+              id="Regions"
+              class="border-2 border-gray-400 focus:outline-green-400 pl-5 h-14 mt-1 w-full dark:bg-gray-700 dark:border-transparent px-2 rounded"
+            >
+              <option value="yde" title="yaounde">Yaounde</option>
+              <option value="bda" title="bamenda">Bamenda</option>
+              <option value="buea" title="buea">Buea</option>
+              <option value="dla" title="douala">Douala</option>
+              <option value="baff" title="baffoussam">Baffoussam</option>
+              <option value="eba" title="Ebolowa">Ebolowa</option>
+            </select>
+          </div>
+
+          <!--email container-->
+          <div class="my-5">
+            <label for="email" class="text-gray-700 dark:text-gray-200"
+              >Email</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 js-email focus:outline-green-400 pl-5 dark:bg-gray-700 dark:border-transparent h-14 mt-1 w-full px-2 rounded"
+              required
+              type="email"
+              id="email"
+              onkeydown=""
+              pattern="^[a-z][a-z]+@gmail[.]com$"
+              name="email"
+            />
+          </div>
+
+          <!--Phone container-->
+          <div class="my-5">
+            <label for="number" class="text-gray-700 dark:text-gray-200"
+              >Phone</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 js-password focus:outline-green-400 dark:bg-gray-700 dark:border-transparent pl-5 h-14 mt-1 w-full px-2 rounded"
+              required
+              type="tel"
+              max="9"
+              id="number"
+              name="number"
+            />
+          </div>
+
+          <!--Password containers-->
+          <div class="my-5">
+            <label for="password" class="text-gray-700 dark:text-gray-200"
+              >Password</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 js-password1 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent pl-5 h-14 mt-1 w-full px-2 rounded"
+              required
+              type="password"
+              pattern="^[a-z]+.\d+$"
+              maxlength="10"
+              id="password"
+              name="password"
+            />
+          </div>
+
+          <div class="hidden alert text-red-500 italic">
+            The passwords did not match!
+          </div>
+
+          <div class="my-5">
+            <label for="password-1" class="text-gray-700 dark:text-gray-200"
+              >Confirm Password</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 js-password-1 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent pl-5 h-14 mt-1 w-full px-2 rounded"
+              required
+              type="password"
+              pattern="^[a-z]+.\d+$"
+              maxlength="10"
+              id="password-1"
+              name="password-1"
+            />
+          </div>
+
+          <!--checkbox container-->
+          <div class="my-5 flex">
+            <input
+              class="border-2 border-gray-400 self-start mt-2 mr-2 dark:bg-gray-700 dark:border-transparent transform scale-1.2 focus:outline-green-400 pl-5 rounded"
+              required
+              type="checkbox"
+              id="terms-condition"
+              name="terms-condition"
+            />
+            <p class="">
+              I agree to (a)Free Membership Agreement, (b) Terms of Use, and (c)
+              Privacy Policy. I agree to receive more information from j.com
+              about its products and services.
+            </p>
+          </div>
+
+          <!--submit button-->
+          <button
+            type="submit"
+            class="signup-btn js-signup-btn w-full border-1 h-14 bg-green-400 pl-5 rounded md:text-sm lg:text-xl text-white font-bold text-center"
+          >
+            Sing Up
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

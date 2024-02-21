@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/market.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="icon" href="./img/vegetarian_mark_48px.png" type="image/x-icon" />
+  <title>Harvest Connect</title>
+</head>
+
+<body class=" mx-auto mt-12  sm:mt-0 dark:text-white dark:bg-black font-serif">
+  <header class="">
+    <!--Sub header one-->
+    <section id="subHeaderH1"
+      class=" sm:px-10 hidden fixed   top-0 left-0 right-0 mx-auto h-16 sm:h-24 md:h-20  text-black  dark:text-white dark:bg-gray-700 border-b-2 border-gray-100  bg-slate-50 bg-opacity-100 z-10  justify-between items-center">
+      <div id="left-section" class="flex items-center ml-8 justify-center  ">
+        <img class="w-6 sm:w-9" src="./img/harvest.png" alt="">
+        <h1 class="">
+          <a href="homepage.html">
+            <div class="font-medium text-nowrap text-black text-2xl  dark:text-white sm:text-2xl lg:text-3xl">
+              Harvest-<span class="text-green-400 ">C<span class="hidden sm:inline-block">onnect</span>
+            </div>
+          </a>
+        </h1>
+
+      </div>
+      </div>
+
+      <div class="middle-section mx-10  sm:mr-4 sm:mt-5 relative w-2/3 lg:h-3/4  flex justify-center max-w-md">
+
+        <input type="text"
+          class="border-2 shadow-xs pl-8 lg:pr-44 rounded-full focus:outline-green-400 lg:flex-1  w-full min-w-40 focus:outline-2  border-gray-200 text-ellipsis h-8 sm:h-12"
+          placeholder="What are you looking for?" />
+        <button id="search-btn1" class="search-btn">
+          <img class="w-5 sm:w-7 sm:top-2 absolute top-1.5 left-1 lg:hidden" src="./img/search_24px.png" alt="" />
+        </button>
+        <button id="search-btn2"
+          class="search-btn sm:text-xl absolute text-white top-1 right-1 text-2xl border-1 bg-green-400 hidden px-4 py-1.5 rounded-full font-medium lg:flex justify-center items-center">
+          <img class="seach-icon w-7 mr-2" src="./img/search_24px.png" alt="" />Search
+        </button>
+
+      </div>
+
+      <div id="right-section" class="hidden sm:flex  sm:pr-4 sm:justify-around sm:items-center sm:flex-shrink-0 ">
+        <button id="translateButton">
+          <img class="w-12 h-12 mx-2 mt-2" src="./img/language_48px.png" alt="earth-icon" />
+        </button>
+        <div class="flex items-center">
+          <button class="user-btn">
+            <img class="w-12 h-12" src="./img/customer_64px.png" alt="" />
+          </button>
+          <a href="./signin.html class=" text-2xl font-medium sm:hidden md:inline-block"
+            href="./signin.html class=">Sign in</a>
+        </div>
+        <a href="./signup.html"
+          class="signUp-link sm:text-xl text-2xl shadow-xs border-1 bg-green-400 text-white ml-2 px-6 py-2 rounded-full font-medium text-center">
+          Sign Up
+        </a>
+      </div>
+    </section>
+
+
+
+    <!--Sub header two-->
+    <section id="subHeaderH2"
+      class="px-10 container mb-20  hidden mx-auto h-16 sm:h-20 md:h-20  sm:flex justify-between items-center">
+      <div id="left-section" class="flex items-center pl-2 justify-center ">
+        <a href=""><img class="w-8 md:w-8 lg:w-9" src="./img/vegetarian_mark_48px.png" alt="" /></a>
+        <h1 class="hidden sm:inline-block">
+          <a href="homepage.html">
+            <div class="font-medium text-white text:2xl  md:text-3xl">
+              Harvest-<span class="text-green-400">Connect</span>
+            </div>
+          </a>
+        </h1>
+      </div>
+
+      <div id="right-section" class="hidden max-w-80 sm:flex justify-center space-x-2 items-center flex-shrink-0">
+        <button id="translateButton">
+          <img class="w-12 h-12 mt-2" src="./img/language_48px.png " alt="earth-icon" />
+        </button>
+        <div class="flex items-center">
+          <button class="user-btn">
+            <img class="w-10 h-10" src="./img/customer_64px.png" alt="" />
+          </button>
+          <a href="./signin.html" class="text-2xl  font-medium text-white sm:hidden md:inline-block">Sign in</a>
+        </div>
+        <a href="./signup.html"
+          class="sinup-btn js-singup-btn sm:text-xl shadow-xs ml-2 text-2xl border-1 bg-green-400 text-white px-6 py-2 rounded-full font-medium text-center">
+          Sign Up
+        </a>
+      </div>
+    </section>
+
+    <!--menu Header-->
+    <section id="menu" class="px-10 pb-10  container  mx-auto lg:px-10 hidden sm:block lg:block mb-20 mt-52">
+      <article id="hero" class="text-white">
+        <p class="font-medium text-5xl  dark:text-white"><a href="">Learn about Harvest-connect.com</a></p>
+        <p class=" text-7xl w-4/5 h-52 overflow-hidden mt-10 text-white dark:text-white">
+          The leading B2B ecommerce platform for global trade
+        </p>
+      </article>
+      <div class="relative w-3/4  my-20">
+        <div class="upload-img-container hidden top-20 -right-8 absolute bg-slate-50 dark:text-white dark:bg-gray-700">
+          <div class="relative">
+            <h1>Find product inspiration with image search</h1>
+            <div class="drop-img-wrapper">
+              <img src="./img/picture_64px.png" alt="">
+              <p> Drag and drop an image here or <a href="">upload a file</a></p>
+            </div>
+            <div>
+              <input type="text" placeholder="Paste a link to an image" name="" id="">
+              <button class="search-img-btn outline outline-green-400 dark:text-white">search</button>
+            </div>
+            <button class="cancel-btn"><img src="./img/delete_50px.png" alt=""></button>
+          </div>
+
+        </div>
+        <img id="camera-btn" class="absolute w-8 top-4 right-40" src="./img/camera_50px.png" alt="" />
+        <input type="text"
+          class="border-2 shadow-xs pl-8 w-full rounded-full focus:outline-green-400 focus:outline-2  border-gray-200 pr-44 text-ellipsis h-16"
+          placeholder="What are you looking for?" />
+        <button id="search-btn3"
+          class="search-btn  shadow-xs sm:text-xl absolute top-1 right-1 text-2xl border-1 bg-green-400 text-white px-6 py-3 rounded-full font-medium flex justify-center items-center">
+          <img class="seach-icon w-8 mr-2" src="./img/search_24px.png" alt="" />Search
+        </button>
+      </div>
+    </section>
+
+  </header>
+
+  <!--main-body-->
+  <main>
+
+    <section id="hero" class="sm:hidden lg:hidden">
+      <div class="container p-6 mx-auto py-10 text-white mb-10">
+        <p>Welcome!</p>
+        <div class="tex-4xl  mb-12">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore vero molestiae, impedit commodi odit
+          cupiditate odio accusamus necessitatibus omnis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Aliquam, rerum.
+        </div>
+        <button class="border-2 bg-green-400 rounded-3xl px-12 py-3"><a href="./signup.html">Get Started</a></button>
+        <button class="border-2 mt-4 bg-green-400 rounded-3xl px-12 py-3"><a href="./signin.html">Sign In</a></button>
+      </div>
+    </section>
+
+    <section id="about-us" class="about-us container p-4 mx-auto">
+      <article>
+        <h2 class=" font-bold text-3xl">About <span class="text-green-400">Us</span></h2>
+        <hr class="border-b-4 inline-block border-b-green-400 pr-20 mt-0 mb-10">
+        </hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis omnis nemo non et maiores, nam quaerat
+          facilis? Molestiae eaque dolorem soluta ad placeat. Corrupti delectus veniam voluptatem explicabo nihil quam
+          aspernatur itaque vitae, maxime aliquam sit ex ab eos libero repellat iure dicta quisquam ullam accusantium
+          quaerat, dolores temporibus quas sint? Explicabo quae, recusandae commodi unde doloremque similique sed dolor
+          repellat iure minus consequatur fuga omnis nam soluta quas, debitis, dolores natus! Aut nulla, id, provident
+          facilis expedita officia necessitatibus maiores ea a mollitia minima praesentium accusamus at tempore
+          explicabo delectus repellendus. Doloremque voluptas autem reiciendis exercitationem est. Repudiandae, aliquid?
+          <a class="text-green-400" href="./about.html">More info &nearr;</a>
+        </p>
+      </article>
+      <article>
+        <h2 class="text-center text-3xl my-14 font-bold">Why choose<span class="text-green-400"> Us</span>?
+        </h2>
+
+        <figure class="">
+          <ul class="figures flex flex-wrap gap-8 text-2xl text-wrap">
+            <li
+              class="border-b-2 w-72 mx-auto border-x-2 rounded-2xl  border-x-gray-300  py-2 shadow-xl flex flex-col text-center justify-center items-center">
+              <a href=""><img class="w-44" src="./img/D.png" alt=""></a>
+              <h3 class="text-wrap w-2/3">Wide Variety of food supplements</h3>
+            </li>
+            <li
+              class="border-b-2 w-72 mx-auto border-x-2 rounded-2xl  border-x-gray-300   p-2 shadow-xl flex flex-col text-center justify-center items-center">
+              <a href=""><img class="w-44" src="./img/D.png" alt=""></a>
+              <h3 class="text-wrap w-2/3">Real-time communication</h3>
+            </li>
+            <li
+              class="border-b-2 w-72 mx-auto border-x-2 rounded-2xl  border-x-gray-300  p-2 shadow-xl flex flex-col text-center justify-center items-center">
+              <a href=""><img class="w-44" src="./img/D.png" alt=""></a>
+              <h3 class="text-wrap w-2/3">Secured Payments</h3>
+            </li>
+            <li
+              class="border-b-2 w-72 mx-auto border-x-2 rounded-2xl  border-x-gray-300  py-2 shadow-xl flex flex-col text-center justify-center items-center">
+              <a href=""><img class="w-44" src="./img/D.png" alt=""></a>
+              <h3 class="text-wrap w-2/3">Customer Support</h3>
+            </li>
+          </ul>
+        </figure>
+      </article>
+    </section>
+
+    <section id="market-place" class=" mt-10 ">
+      <div class="relative container p-4 mx-auto">
+
+        <h2 class="font-bold text-3xl">Marketplace</h2>
+        <hr class="border-b-4 inline-block border-b-green-400 pr-20 mt-0 mb-8">
+        </hr>
+        <h3 class=" mb-10 font-medium text-3xl.">Explore our marketplace and place our order</h3>
+
+
+        <div class="carts-container flex  max-w-10xl space-x-16 items-center mx-auto overflow-x-auto p-5">
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+          <div class="cart min-w-96">
+            <div class="produc-img-wrapper">
+              <img class="product-img" src="./img/Carrots.jpeg" alt="">
+            </div>
+            <div class="product-info">
+              <div class="product-name text-2xl">Carrots</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem velit quos consequatur repudiandae sed
+                totam molestiae ad ipsum, labore impedit minima ea voluptas minus ex neque, nam quae reprehenderit sunt
+                corrupti delectus quibusdam sit. Molestias, quaerat cum. Architecto, totam quas?
+              </div>
+              <div class="product-price"><i class="text-3xl">Price: 1300XAF</i></div>
+              <div class="location"><span class="material-symbols-outlined">
+                  location_on
+                </span><i class="text-2xl">Bamenda</i>
+              </div>
+            </div>
+            <div class="btn-wrapper mt-">
+              <button class="sup-btn mrkt-btn">Contact Supplier</button>
+              <button class="chat-btn mrkt-btn">Chat now</button>
+            </div>
+
+          </div>
+
+        </div>
+        <button class="prevBtn absolute -left-5 top-96 border-2 dark:border-white 
+              order-black rounded-full hidden sm:inline-block px-2 hover:bg-green-400 text-5xl">&lt;</button>
+        <button
+          class="nextBtn hidden sm:inline-block border hover:bg-green-400 px-2 dark:border-white  top-96 rounded-full absolute text-5xl -right-1">&gt;</button>
+      </div>
+
+      <div class="exploreBtn-continer flex justify-center">
+        <button id="explore-btn" class="border p-4 bg-green-400 rounded-2xl shadow-xs text-white"><a
+            href="./market.html">Explore markertplace</a></button>
+
+      </div>
+    </section>
+
+    <section id="testimonials" class="mt-10 container p-4 mx-auto">
+      <h2 class="text-4xl font-bold sm:test-5xl  dark:text-white">
+        Testimonials
+      </h2>
+      <hr class="border-b-4 inline-block border-b-green-400 pr-20 mt-0 mb-6">
+      </hr>
+
+      <figure class="bg-slate-200 my-12  dark:bg-gray-800 rounded-3xl sm:p-6">
+        <blockquote
+          class=" pl-4 sm:pl-14  pr-4 sm:pr-8 py-6 sm:py-12 relative block sm:flex justify-center items-center">
+          <img src="./img/enu.jpg" alt="" class="author h-52 w-52 object-cover hidden sm:inline-block rounded-full ">
+          <p
+            class="text-2xl ml-8 sm:text-3 text-left mt-2 text-black dark:text-slate-400 before:content-['\201C'] before:text-slate-400 before:font-serif before:absolute before:top-0  before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2  
+                  after:content-['\201D'] after:text-slate after:font-serif after:absolute  after:-bottom-24 after:right-0 after:text-9xl after:text-slate-400 after:opacity-25 after:transform after:translate-x-2 after:translate-y-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem et dolorum ducimus tempora illum quis error
+            nulla impedit necessitatibus doloribus!
+          </p>
+        </blockquote>
+        <figcaption class="italic sm:text-2xl text-right mt-2 text-slate-500 pr-12 dark:text-slate-500">
+          &#8212;Enu Clinton
+        </figcaption>
+      </figure>
+      <figure class="bg-slate-200 my-12  dark:bg-gray-800 rounded-3xl sm:p-6">
+        <blockquote
+          class=" pl-4 sm:pl-14  pr-4 sm:pr-8 py-6 sm:py-12 relative block sm:flex justify-center items-center">
+          <img src="./img/enu.jpg" alt="" class="author h-52 w-52 object-cover hidden sm:inline-block rounded-full ">
+          <p
+            class="text-2xl ml-8 sm:text-3 text-left mt-2 text-black dark:text-slate-400 before:content-['\201C'] before:text-slate-400 before:font-serif before:absolute before:top-0  before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2  
+                  after:content-['\201D'] after:text-slate after:font-serif after:absolute  after:-bottom-24 after:right-0 after:text-9xl after:text-slate-400 after:opacity-25 after:transform after:translate-x-2 after:translate-y-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem et dolorum ducimus tempora illum quis error
+            nulla impedit necessitatibus doloribus!
+          </p>
+        </blockquote>
+        <figcaption class="italic sm:text-2xl text-right mt-2 text-slate-500 pr-12 dark:text-slate-500">
+          &#8212;Enu Clinton
+        </figcaption>
+      </figure>
+      <figure class="bg-slate-200 my-12  dark:bg-gray-800 rounded-3xl sm:p-6">
+        <blockquote
+          class=" pl-4 sm:pl-14  pr-4 sm:pr-8 py-6 sm:py-12 relative block sm:flex justify-center items-center">
+          <img src="./img/enu.jpg" alt="" class="author h-52 w-52 object-cover hidden sm:inline-block rounded-full ">
+          <p
+            class="text-2xl ml-8 sm:text-3 text-left mt-2 text-black dark:text-slate-400 before:content-['\201C'] before:text-slate-400 before:font-serif before:absolute before:top-0  before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2  
+                  after:content-['\201D'] after:text-slate after:font-serif after:absolute  after:-bottom-24 after:right-0 after:text-9xl after:text-slate-400 after:opacity-25 after:transform after:translate-x-2 after:translate-y-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem et dolorum ducimus tempora illum quis error
+            nulla impedit necessitatibus doloribus!
+          </p>
+        </blockquote>
+        <figcaption class="italic sm:text-2xl text-right mt-2 text-slate-500 pr-12 dark:text-slate-500">
+          &#8212;Enu Clinton
+        </figcaption>
+      </figure>
+      <figure class="bg-slate-200 my-12  dark:bg-gray-800 rounded-3xl sm:p-6">
+        <blockquote
+          class=" pl-4 sm:pl-14  pr-4 sm:pr-8 py-6 sm:py-12 relative block sm:flex justify-center items-center">
+          <img src="./img/enu.jpg" alt="" class="author h-52 w-52 object-cover hidden sm:inline-block rounded-full ">
+          <p
+            class="text-2xl ml-8 sm:text-3 text-left mt-2 text-black dark:text-slate-400 before:content-['\201C'] before:text-slate-400 before:font-serif before:absolute before:top-0  before:text-9xl before:opacity-25 before:transform before:translate-x-2 before:translate-y-2  
+                  after:content-['\201D'] after:text-slate after:font-serif after:absolute  after:-bottom-24 after:right-0 after:text-9xl after:text-slate-400 after:opacity-25 after:transform after:translate-x-2 after:translate-y-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem et dolorum ducimus tempora illum quis error
+            nulla impedit necessitatibus doloribus!
+          </p>
+        </blockquote>
+        <figcaption class="italic sm:text-2xl text-right mt-2 text-slate-500 pr-12 dark:text-slate-500">
+          &#8212;Enu Clinton
+        </figcaption>
+      </figure>
+
+    </section>
+
+    <section class="">
+      <div class="signup-section  h-screen text-white flex flex-col justify-center items-center p-4">
+        <h2 class="font-bold text-3xl">Ready to get started?</h2>
+        <p class="sm:tracking-widest tracking-normal my-5">Explore a millions of produts from suppliers by singing up
+          today!</p>
+        <button class="border-2 shadow-xs bg-green-400  rounded-3xl px-12 py-3"><a href="./signup.html">Sign
+            Up</a></button>
+      </div>
+
+    </section>
+
+    <section id="contactUs" class="container mt-10 p-4 mx-auto">
+      <h2 class=" font-bold text-3xl">Contact <span class="text-green-400">Us</span></h2>
+      <hr class="border-b-4 inline-block border-b-green-400 pr-20 mt-0 mb-10">
+      </hr>
+      <div class="flex space-x-4 items-center">
+        <form action="/submit" method="post" class="w-3/5 sm:w-1/2">
+          <h3 class="text-center text-2xl">Send us a message</h3>
+          <div class="my-2 sm:my-5">
+            <label for="namw" class="text-gray-700 dark:text-gray-200">Full name</label><br />
+            <input
+              class="border-2 border-gray-400 js-name bg-green-200 pl-5 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent h-14 mt-1 w-full px-2 rounded-lg"
+              required type="text" id="name" name="name" placeholder="e.g Harvest connect" />
+          </div>
+          <div class="my-2 sm:my-">
+            <label for="phone" class="text-gray-700 dark:text-gray-200">Phone number</label><br />
+            <input
+              class="border-2 border-gray-400 js-phone pl-5 bg-green-200 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent h-14 mt-1 w-full px-2 rounded-lg"
+              required type="tel" id="phone" name="phone" placeholder="e.g 672697502" />
+          </div>
+          <div class="my-2 sm:my-5">
+            <label for="email" class="text-gray-700 dark:text-gray-200">Email</label><br />
+            <input
+              class="border-2 border-gray-400 js-email bg-green-200 pl-5 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent h-14 mt-1 w-full px-2 rounded-lg"
+              required type="Email" id="email" name="email" placeholder="e.g harvestconnect@gmail.com" />
+          </div>
+          <div class="my-2 sm:my-1">
+            <label for="message" class="text-gray-700 dark:text-gray-200">Messsage</label><br />
+            <textarea name="message" id="message" placeholder="Please enter your message"
+              class="border-2 pt-2 resize-none border-gray-400 js-message bg-green-200 pl-5 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent h-24 mt-1 w-full px-2 rounded-lg"></textarea>
+          </div>
+          <button type="submit"
+            class="login-btn js-login-btn flex justify-center items-center mt-1 sm:mt-2  w-2/3 mx-auto border-1 h-14 bg-green-400 rounded text-white font-bold">
+            Send
+          </button>
+        </form>
+        <div class="letsConnect mt-0  w-2/5 sm:w-2/3">
+          <h2 class="text-xl sm:text-2xl mt-10 text-center text-nowrap">Let's connect</h2>
+          <figure class="flex justify-center mt-2">
+            <img class="sm:w-52 sm:h-52 w-32 h-32" src="./img/Harvest-connect.jpg" alt="">
+          </figure>
+          <figure class="mt-11 sm:mt-5">
+            <ul>
+              <li
+                class="h-14 dark:bg-gray-700 w-full sm:pl-4 shadow-md rounded flex items-center space-x-8 sm:justify-start justify-center">
+                <a href=""><img class="w-10 h-10" src="./img/facebook_48px.png" alt="" /></a>
+                <div class="hidden sm:block">Harvest Connect</div>
+              </li>
+              <li
+                class="h-14 my-12 sm:my-10 dark:bg-gray-700 w-full sm:pl-4 shadow-md rounded  flex items-center space-x-8 sm:justify-start justify-center">
+                <a href=""><img class="w-6 h-6 sm:w-8 sm:h-8" src="./img/x-social-media-black-icon.webp" alt="" /></a>
+                <div class="hidden sm:block">Harvest Connect</div>
+              </li>
+              <li
+                class="h-14 w-full dark:bg-gray-700 shadow-md rounded flex items-center sm:pl-4 space-x-8 sm:justify-start justify-center">
+                <a href=""><img class="w-8 h-8 sm:w-10 sm:h-10" src="./img/linkedin_48px.png" alt="" /></a>
+                <div class="hidden sm:block">Harvest Connect</div>
+              </li>
+            </ul>
+          </figure>
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+  <!--footer-->
+  <footer class="mx-auto  text-black ">
+    <section
+      class="foot dark:text-white dark:bg-gray-700  px-10 lg:px-16 bg-slate-50 w-full sm:flex mx-auto flex-col sm:flex-row sm:justify-between">
+      <address>
+        <h2>Harvert-connect, Inc</h2>
+        email: <a href="mailto: harvestconnect@gmail.com">harvestconnect@gmail.com</a><br>
+        phone: <a href="tel:+237659642040 ">659642040</a><br>
+      </address>
+      <div class="flex flex-col sm:gap-2">
+        <p class="text-right">Copyright &copy;
+          <span id="year">2024</span>
+        </p>
+        <p class="text-right">
+          All Rights Reserved
+        </p>
+      </div>
+    </section>
+
+    <section class="sm:hidden fixed left-0 right-0 p-2 bottom-0 bg-white dark:bg-black  z-10 ">
+      <nav class="flex justify-evenly">
+        <div class="dark:text-white text-black">
+          <a href="homepage.html"><img class="w-5 h-5 ml-3 hover:text-green-400-500" src="./img/home_24px.png" alt="" />
+            Home
+          </a>
+        </div>
+        <div class="dark:text-white text-black">
+          <a href=""><img class="w-5 h-5 ml-1" src="./img/light_on_48px.png" alt="" />Tips
+          </a>
+        </div>
+        <div class="dark:text-white text-black">
+          <a href=""><img class="w-5 h-5 ml-6" src="./img/comments_24px.png" alt="" /> messenger
+          </a>
+        </div>
+        <div class="dark:text-white text-black">
+          <a class="" href=""><img class="w-5 h-5 ml-5" src="./img/user_16px.png" alt="" />Account
+          </a>
+        </div>
+      </nav>
+    </section>
+  </footer>
+
+  <script src="./script/home.js"></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

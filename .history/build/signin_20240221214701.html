@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="icon"
+      href="./img/vegetarian_mark_48px.png"
+      type="image/x-icon"
+    />
+    <title>Login</title>
+  </head>
+  <body
+    class="flex items-center justify-center min-h-screen font-serif py-8 dark:text-white dark:bg-black bg-slate-100"
+  >
+    <!--main body-->
+    <main
+      class="main-body sm:w-120 lg:w-124 border-2 border-gray-400 dark:border-gray-600 py-5 rounded-lg shadow-xl"
+    >
+      <section>
+        <div class="mb-6 px-12">
+          <h1
+            class="text-2xl text-center font-bold md:text-4xl lg:text-3xl text-green-400 mb-2"
+          >
+            Login
+          </h1>
+          <figure class="flex justify-center">
+            <img
+              class="w-6 h-6"
+              src="./img/vegetarian_mark_48px.png"
+              alt="vegetarian_mark"
+            />
+            <p class="pl-0">
+              Don't you have an account? <a href="./signup.html">sign Up</a>
+            </p>
+          </figure>
+        </div>
+        <form
+          action="/submit"
+          method="post"
+          class="border-none w-full m-auto border-2 border-gray-400 px-10"
+        >
+          <div class="my-5">
+            <label for="user-or-email" class="text-gray-700 dark:text-gray-200"
+              >Email Or Username</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 js-email pl-5 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent h-14 mt-1 w-full px-2 rounded"
+              required
+              type="text"
+              id="user-or-email"
+              name="user-or-email"
+            />
+          </div>
+          <div class="mt-5">
+            <label
+              for="password"
+              class="text-gray-700 dark:text-gray-200 flex justify-between"
+            >
+              Password
+              <a class="text-right" href="./forgotpw.html"
+                ><i class="text-green-400">Forgot password?</i></a
+              ></label
+            >
+            <input
+              class="border-2 border-gray-400 js-password pl-5 focus:outline-green-300 dark:bg-gray-700 dark:border-transparent h-14 mt-1 w-full px-2 rounded"
+              required
+              type="password"
+              pattern="^[a-z]+.\d+$"
+              maxlength="10"
+              id="password"
+              name="password"
+            />
+            <div class="alert hidden text-red-400 italic">
+              Incorrect Password!
+            </div>
+          </div>
+       <a href="./signin.html">   <button
+        type="submit"
+        class="login-btn js-login-btn mt-7 text-2xl w-full border-1 h-14 bg-green-400 rounded text-white font-bold text-center"
+      >
+        Login
+      </button></a>
+        </form>
+      </section>
+
+      <section>
+        <div class="flex items-center justify-center space-x-4 px-10 mt-6 mb-4">
+          <hr class="border-1 border-gray-400 dark:border-gray-300 flex-1" />
+          <div class="text-gray-700 dark:text-gray-200">Or</div>
+          <hr class="border-1 border-gray-400 boreder-gray-300 flex-1" />
+        </div>
+      </section>
+
+      <section class="mx-10 flex justify-between">
+        <div
+          class="h-14 border-2 border-gray-400 rounded flex-1 flex items-center justify-center mr-2"
+        >
+          <a href=""
+            ><img
+              class="w-10 h-10"
+              src="./img/google_48px.png"
+              alt="google-icon"
+          /></a>
+        </div>
+        <div
+          class="h-14 border-2 border-gray-400 dark:bg-gray-700 rounded flex-1 flex justify-center items-center mr-2"
+        >
+          <a href=""
+            ><img
+              class="w-8 h-8"
+              src="./img/x-social-media-black-icon.webp"
+              alt="google-icon"
+          /></a>
+        </div>
+        <div
+          class="h-14 border-2 border-gray-400 rounded flex-1 flex items-center justify-center"
+        >
+          <a href=""
+            ><img
+              class="w-10 h-10"
+              src="./img/facebook_f_64px.png"
+              alt="google-icon"
+          /></a>
+        </div>
+      </section>
+    </main>
+    <script src="./script/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="icon"
+      href="./img/vegetarian_mark_48px.png"
+      type="image/x-icon"
+    />
+    <title>Reset Password</title>
+  </head>
+  <body
+    class="flex items-center  justify-center min-h-screen  bg-slate-100 dark:text-white dark:bg-black font-serif py-8"
+  >
+    <main
+      class="main-body sm:w-60 md:w-96 lg:w-124 border-2 border-gray-400 dark:border-gray-600 py-5 rounded-lg shadow-2xl"
+    >
+      <section>
+        <article class="mb-6 flex flex-col items-center px-12">
+          <h1
+            class="text-2xl font-bold md:text-4xl lg:text-3xl text-green-400 mb-2"
+          >
+            Reset Password
+          </h1>
+          <img
+            class="w-8 h-8"
+            src="./img/vegetarian_mark_48px.png"
+            alt="vegetarian_mark"
+          />
+        </article>
+        <form
+          action="/submit"
+          method="post"
+          class="border-none w-full m-auto border-2 border-gray-400 px-10"
+        >
+          <div class="my-5">
+            <label for="user-or-email" class="text-gray-500 dark:text-gray-200"
+              >New Password</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 pl-5 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent h-14 mt-1 w-full px-2 rounded"
+              required
+              type="password"
+              id="new-password"
+              name="new-password"
+              pattern="^[a-z]+.\d+$"
+            />
+          </div>
+
+          <div class="my-5">
+            <label
+              for="confirm-password"
+              class="text-gray-500 dark:text-gray-200"
+              >Confirm Password</label
+            ><br />
+            <input
+              class="border-2 border-gray-400 pl-5 focus:outline-green-400 dark:bg-gray-700 dark:border-transparent h-14 mt-1 w-full px-2 rounded"
+              required
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              pattern="^[a-z]+.\d+$"
+            />
+          </div>
+          <button
+            type="submit"
+            class="js-forgot-btn text-xl w-full border-1 h-14 bg-green-400 rounded text-white font-bold text-center"
+          >
+            Reset Password
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

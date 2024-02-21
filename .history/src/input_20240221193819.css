@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 640px) {
+  .main-body{
+    border: none;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer section:nth-child(1){
+    margin-bottom: 40px;
+  }
+  #subHeaderH2{
+    display: none;
+  }
+  .mobile-navbar{
+    display: block;
+  }
+  #hero{
+    background-image: url(/build/img/farming.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+  @media (max-width: 570px) {
+    .product-grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 20px;
+      column-gap: 4px;
+    }
+  }
+}
+
+
+
+
+
+@media (min-width: 840px) {
+  .product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+}
+
+
+
+
+
+header{
+  background-image: url(/build/img/farmer.png);
+  background-position: center;
+  background-size: cover;
+  background-color: 1px solid #4ade80;
+}
+
+
+@media (min-width: 850px) {
+  #right-section{
+    width: 400px;
+    margin-left: 18px;
+    justify-content: space-around;
+  }
+  #middle-section input{
+    height: 54px;
+  }
+  
+}
+
+
+
+.signup-section{
+  background-image: url(/build/img/farmer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: 1px solid #4ade80;
+}
+
+.upload-img-container{
+  width: 700px;
+  padding: 30px 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px gray;
+ 
+}
+.upload-img-container h1{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.drop-img-wrapper{
+  display: flex;
+  padding: 40px;
+  background-color: rgb(228, 228, 228);
+  margin: 20px 0;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 18px;
+  border-radius: 7px;
+}
+.drop-img-wrapper a{
+  text-decoration: underline;
+  color: #4ade80;
+  font-size: 20px;
+}
+.upload-img-container input{
+  border: 1px solid darkgray;
+  padding-left: 20px;
+  height: 34px;
+  width: 580px;
+  margin-right: -4px;
+}
+.upload-img-container .search-img-btn{
+  border: 1px solid gray;
+  padding: 2px 12px; 
+}
+.cancel-btn{
+ position: absolute;
+ top: 5px;
+ right: 40px;
+}
+.cancel-btn img{
+  width: 25px;
+}
+
+
+
+::-webkit-scrollbar{
+  border: 12px solid transparent;
+}
+
+@media (max-width: 640px) {
+  .market-searchBar{
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-left: 1px solid thistle;
+}  
+}
+@media (min-width: 640px) {
+  .market-searchBar{
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-left: none;
+}
+}
+
+.regions-container{
+  border: 2px solid rgb(221, 220, 220);
+  padding-left: 10px;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-right: 2px solid whitesmoke;
+  background-color: white;
+}
+
+
+
+
+
+
+    
+    
+   
+
+    
+   
+
+  
+
+    
+    
+  
+
+
+
+   
+
+
+

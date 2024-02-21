@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tips</title>
+</head>
+<body class="font-sans">
+  <header class="">
+    <!--Sub header one-->
+    <section id="subHeaderH1"
+      class=" sm:px-10 hidden fixed   top-0 left-0 right-0 mx-auto h-16 sm:h-24 md:h-20  text-black  dark:text-white dark:bg-gray-700 border-b-2 border-gray-100  bg-slate-50 bg-opacity-100 z-10  justify-between items-center">
+      <div id="left-section" class="flex items-center ml-8 justify-center  ">
+        <img class="w-6 sm:w-9" src="./img/harvest.png" alt="">
+        <h1 class="">
+          <a href="homepage.html">
+            <div class="font-medium text-nowrap text-black text-2xl  dark:text-white sm:text-2xl lg:text-3xl">
+              Harvest-<span class="text-green-400 ">C<span class="hidden sm:inline-block">onnect</span>
+            </div>
+          </a>
+        </h1>
+
+      </div>
+      </div>
+
+      <div class="middle-section mx-10  sm:mr-4 sm:mt-5 relative w-2/3 lg:h-3/4  flex justify-center max-w-md">
+
+        <input type="text"
+          class="border-2 shadow-xs pl-8 lg:pr-44 rounded-full focus:outline-green-400 lg:flex-1  w-full min-w-40 focus:outline-2  border-gray-200 text-ellipsis h-8 sm:h-12"
+          placeholder="What are you looking for?" />
+        <button id="search-btn1" class="search-btn">
+          <img class="w-5 sm:w-7 sm:top-2 absolute top-1.5 left-1 lg:hidden" src="./img/search_24px.png" alt="" />
+        </button>
+        <button id="search-btn2"
+          class="search-btn sm:text-xl absolute text-white top-1 right-1 text-2xl border-1 bg-green-400 hidden px-4 py-1.5 rounded-full font-medium lg:flex justify-center items-center">
+          <img class="seach-icon w-7 mr-2" src="./img/search_24px.png" alt="" />Search
+        </button>
+
+      </div>
+
+      <div id="right-section" class="hidden sm:flex  sm:pr-4 sm:justify-around sm:items-center sm:flex-shrink-0 ">
+        <button id="translateButton">
+          <img class="w-12 h-12 mx-2 mt-2" src="./img/language_48px.png" alt="earth-icon" />
+        </button>
+        <div class="flex items-center">
+          <button class="user-btn">
+            <img class="w-12 h-12" src="./img/customer_64px.png" alt="" />
+          </button>
+          <a href="./signin.html" class="text-2xl font-medium sm:hidden md:inline-block"
+            href="./signin.html class=">Sign in</a>
+        </div>
+        <a href="./signup.html"
+          class="signUp-link sm:text-xl text-2xl shadow-xs border-1 bg-green-400 text-white ml-2 px-6 py-2 rounded-full font-medium text-center">
+          Sign Up
+        </a>
+      </div>
+    </section>
+
+
+
+    <!--Sub header two-->
+    <section id="subHeaderH2"
+      class="px-10 container mb-20  hidden mx-auto h-16 sm:h-20 md:h-20  sm:flex justify-between items-center">
+      <div id="left-section" class="flex items-center pl-2 justify-center ">
+        <a href=""><img class="w-8 md:w-8 lg:w-9" src="./img/vegetarian_mark_48px.png" alt="" /></a>
+        <h1 class="hidden sm:inline-block">
+          <a href="homepage.html">
+            <div class="font-medium text-white text:2xl  md:text-3xl">
+              Harvest-<span class="text-green-400">Connect</span>
+            </div>
+          </a>
+        </h1>
+      </div>
+
+      <div id="right-section" class="hidden max-w-80 sm:flex justify-center space-x-2 items-center flex-shrink-0">
+        <button id="translateButton">
+          <img class="w-12 h-12 mt-2" src="./img/language_48px.png " alt="earth-icon" />
+        </button>
+        <div class="flex items-center">
+          <button class="user-btn">
+            <img class="w-10 h-10" src="./img/customer_64px.png" alt="" />
+          </button>
+          <a href="./signin.html" class="text-2xl  font-medium text-white sm:hidden md:inline-block">Sign in</a>
+        </div>
+        <a href="./signup.html"
+          class="sinup-btn js-singup-btn sm:text-xl shadow-xs ml-2 text-2xl border-1 bg-green-400 text-white px-6 py-2 rounded-full font-medium text-center">
+          Sign Up
+        </a>
+      </div>
+    </section>
+
+    <!--menu Header-->
+    <section id="menu" class="px-10 pb-10  container  mx-auto lg:px-10 hidden sm:block lg:block mb-20 mt-52">
+      <article id="hero" class="text-white">
+        <p class="font-medium text-5xl  dark:text-white"><a href="">Learn about Harvest-connect.com</a></p>
+        <p class=" text-7xl w-4/5 h-52 overflow-hidden mt-10 text-white dark:text-white">
+          The leading B2B ecommerce platform for global trade
+        </p>
+      </article>
+      <div class="relative w-3/4  my-20">
+        <div class="upload-img-container hidden top-20 -right-8 absolute bg-slate-50 dark:text-white dark:bg-gray-700">
+          <div class="relative">
+            <h1>Find product inspiration with image search</h1>
+            <div class="drop-img-wrapper">
+              <img src="./img/picture_64px.png" alt="">
+              <p> Drag and drop an image here or <a href="">upload a file</a></p>
+            </div>
+            <div>
+              <input type="text" placeholder="Paste a link to an image" name="" id="">
+              <button class="search-img-btn outline outline-green-400 dark:text-white">search</button>
+            </div>
+            <button class="cancel-btn"><img src="./img/delete_50px.png" alt=""></button>
+          </div>
+
+        </div>
+        <img id="camera-btn" class="absolute w-8 top-4 right-40" src="./img/camera_50px.png" alt="" />
+        <input type="text"
+          class="border-2 shadow-xs pl-8 w-full rounded-full focus:outline-green-400 focus:outline-2  border-gray-200 pr-44 text-ellipsis h-16"
+          placeholder="What are you looking for?" />
+        <button id="search-btn3"
+          class="search-btn  shadow-xs sm:text-xl absolute top-1 right-1 text-2xl border-1 bg-green-400 text-white px-6 py-3 rounded-full font-medium flex justify-center items-center">
+          <img class="seach-icon w-8 mr-2" src="./img/search_24px.png" alt="" />Search
+        </button>
+      </div>
+    </section>
+
+  </header>
+
+    <div class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl lg:mx-0">
+            <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl"><span class="border-b border-emerald-500 border-b-4">Best</span> Practices</h2>
+            <p class="mt-2 text-sm leading-8">Learn how to grow your crops in a much better way</p>
+          </div>
+          <div class="mx-auto mt-5 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-10 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <article class="flex max-w-xl flex-col items-start justify-between">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="object-fill h-80 w-80 bg-gray-50">
+                </div>
+              <div class="group relative">
+                <h3 class="mt-2 text-lg font-semibold leading-6 group-hover:text-gray-600">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Boost your conversion rate
+                  </a>
+                </h3>
+                <p class="mt-2 line-clamp-3 text-sm leading-6">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+              </div>
+              <div class="flex items-center justify-end gap-x-4 text-xs mt-1">
+                <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+              </div>
+            </article>
+            
+            <article class="flex max-w-xl flex-col items-start justify-between">
+              <div>
+                  <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="object-fill h-80 w-80 bg-gray-50">
+              </div>
+            <div class="group relative">
+              <h3 class="mt-2 text-lg font-semibold leading-6 group-hover:text-gray-600">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  Boost your conversion rate
+                </a>
+              </h3>
+              <p class="mt-2 line-clamp-3 text-sm leading-6">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+            </div>
+            <div class="flex items-center justify-end gap-x-4 text-xs mt-1">
+              <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+            </div>
+          </article>
+          
+          <article class="flex max-w-xl flex-col items-start justify-between">
+            <div>
+                <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="object-fill h-80 w-80 bg-gray-50">
+            </div>
+          <div class="group relative">
+            <h3 class="mt-2 text-lg font-semibold leading-6 group-hover:text-gray-600">
+              <a href="#">
+                <span class="absolute inset-0"></span>
+                Boost your conversion rate
+              </a>
+            </h3>
+            <p class="mt-2 line-clamp-3 text-sm leading-6">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+          </div>
+          <div class="flex items-center justify-end gap-x-4 text-xs mt-1">
+            <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+          </div>
+        </article>
+            <!-- More posts... -->
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
